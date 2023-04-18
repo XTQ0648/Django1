@@ -1,0 +1,14 @@
+
+
+/*转换：根据v1.proto这个文件生成，输出(--python_out=.)到到当前目录.   protoc --python_out=. v1.proto*/
+syntax = "proto3";
+package wupeiqi;
+
+message Person{
+    string name=1;
+    int32 age=2;
+}
+message Message{
+    string method=1;
+    string payload=2;
+}
