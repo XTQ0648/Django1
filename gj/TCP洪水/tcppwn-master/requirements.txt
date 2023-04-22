@@ -1,3 +1,0 @@
-multiprocessing==2.6.2.1
-netifaces==0.10.9
-scapy==2.4.2
